@@ -7,9 +7,9 @@ namespace Пример_таблицы_WPF
     static class VisualArray
     {
         /// <summary>
-        /// Реализует визуализацию даннных на DataGrid из передаваемого списка структуры PcInfo.
+        /// Реализует визуализацию даннных на DataGrid
         /// </summary>
-        /// <param name="pcList">Список содержащий экземпляры структуры PcInfo.</param>
+        /// <param name="">Список</param>
         /// <returns>Представление таблицы.</returns>
         public static DataTable ToDataTable(List<float> expensesArray, List<float> pricesArray)
         {
